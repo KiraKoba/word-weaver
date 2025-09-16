@@ -1,9 +1,9 @@
 # ⚙️ DOCX to Markdown Processor
 
-![GitHub repo size](https://img.shields.io/github/repo-size/YourUsername/processador-docx?style=flat-square)
-![GitHub language count](https://img.shields.io/github/languages/count/YourUsername/processador-docx?style=flat-square)
-![GitHub open issues](https://img.shields.io/github/issues/YourUsername/processador-docx?style=flat-square)
-![GitHub open pull requests](https://img.shields.io/github/issues-pr/YourUsername/processador-docx?style=flat-square)
+![GitHub repo size](https://img.shields.io/github/repo-size/KiraKoba/word-weaver?style=flat-square)
+![GitHub language count](https://img.shields.io/github/languages/count/KiraKoba/word-weaver?style=flat-square)
+![GitHub open issues](https://img.shields.io/github/issues/KiraKoba/word-weaver?style=flat-square)
+![GitHub open pull requests](https://img.shields.io/github/issues-pr/KiraKoba/word-weaver?style=flat-square)
 
 This repository contains a Python script designed to automate the conversion of `.docx` files to Markdown format. The tool reads documents from an input folder (`input`), processes their content, and saves the results as `.md` files in an output folder (`output`), preserving the original filenames.
 
@@ -15,12 +15,11 @@ This repository contains a Python script designed to automate the conversion of 
 - [Usage Instructions](#-usage-instructions)
 - [Acknowledgments](#-acknowledgments)
 - [Contact](#-contact)
-- [License](#-license)
 
 ## ✨ Features
 
 - __Batch Conversion__: Process multiple `.docx` files at once.
-- __Simple Structure__: Uses dedicated `input` and `output` folders for easy file management.
+- __Simple Structure__: Uses dedicated `input` and `output` folders for easy file management. The folders are tracked by Git but their contents are ignored, thanks to the `.gitkeep` files.
 - __Text Extraction__: Reads text content from Word documents.
 - __Filename Preservation__: Saves converted files with the same name as the original, changing only the extension to `.md`.
 
@@ -40,8 +39,8 @@ The complete documentation can be found at [python-docx.readthedocs.io](https://
 
 1. __Clone the Repository__
    ```bash
-   git clone https://github.com/YourUsername/processador-docx.git
-   cd processador-docx
+   git clone https://github.com/KiraKoba/word-weaver.git
+   cd word-weaver
    ```
 
 2. __Install Dependencies__
@@ -75,7 +74,4 @@ Special thanks to the communities and maintainers of these projects.
 
 ## 📞 Contact
 For questions or suggestions, feel free to get in touch:
-- GitHub: [https://github.com/YourUsername](https://github.com/YourUsername)
-
-## 📜 License
-This project is licensed under the MIT License - see the `LICENSE` file for details.
+- GitHub: [https://github.com/KiraKoba](https://github.com/KiraKoba)

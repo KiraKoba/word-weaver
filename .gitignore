@@ -126,4 +126,5 @@ cython_debug/
 .vscode/
 
 # Project specific
-output/
+input/*
+output/*
